@@ -1,0 +1,35 @@
+.dockHeader,
+.AppToolbar,
+.SceneTopBarBg,
+.ScrollViewAlt,
+.TabWindowBackground,
+.WhiteBackground,
+#WhiteBackground,
+.scrollview,
+.ProjectBrowserIconAreaBg,
+.PreBackground,
+.dragtab-label,
+.Toolbar,
+.toolbarbutton,
+.ToolbarPopup,
+.ToolbarPopupLeft,
+.FoldoutHeader,
+.IN-Title,
+.IN-BigTitle,
+.IN-Footer,
+.PreToolbar,
+.ProjectBrowserTopBarBg,
+.TextField,
+.ObjectField,
+.MiniPopup,
+.ProjectBrowserBottomBarBg
+.EntryBackEven,
+.overlay-toolbar__top,
+.unity-overlay-drop-zone,
+.overlay-toolbar-area.unity-overlay-container-horizontal,
+.unity-overlay-container,
+.overlay-container__spacer
+{
+     background: none !important;
+     background-color: #000 !important;
+}

@@ -1,3 +1,11 @@
+:root {
+    --unity-colors-play_mode-background: #000000 !important;
+    --unity-colors-gameview-background: #000000 !important;
+    --unity-colors-default-background: #000000 !important;
+}
+* {
+    --unity-colors-play_mode-background: #000000;
+}
 .dockHeader,
 .AppToolbar,
 .SceneTopBarBg,
@@ -28,8 +36,17 @@
 .unity-overlay-drop-zone,
 .overlay-toolbar-area.unity-overlay-container-horizontal,
 .unity-overlay-container,
-.overlay-container__spacer
+.overlay-container__spacer,
+.GameViewBackground,
+.unity-game-view__background,
+.unity-game-view,
+#GameView,
+.GameView,
+.game-view-background,
+.unity-gameview-display,
+.unity-camera-preview,
+.RenderTexture
 {
-     background: none !important;
+     
      background-color: #000 !important;
 }

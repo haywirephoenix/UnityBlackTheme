@@ -10,10 +10,10 @@
     --unity-metrics-single_line_small-height: 16px;
     --unity-colors-error-text: rgb(211, 34, 34);
     --unity-colors-warning-text: rgb(244, 188, 2);
-    --unity-colors-play_mode-background: rgb(96, 96, 96);
+    --unity-colors-play_mode-background: rgb(0,0,0) !important;
     --unity-colors-default-text: rgb(210, 210, 210);
     --unity-colors-default-text-hover: rgb(189, 189, 189);
-    --unity-colors-default-background: rgb(40, 40, 40);
+    --unity-colors-default-background: rgb(0,0,0) !important;
     --unity-colors-default-border: rgb(35, 35, 35);
     --unity-metrics-default-border_radius: 3px;
     --unity-colors-highlight-background: rgb(44, 93, 135);
@@ -189,7 +189,7 @@
     --unity-theme-border-color-24: rgb(123, 174, 250);
     --unity-theme-text-color-0: rgb(255, 255, 255);
     --unity-theme-text-color-1: rgb(210, 210, 210);
-    --unity-theme-text-color-2: rgb(196, 196, 196);
+    --unity-theme-text-color-2: rgba(91, 17, 17, 1);
     --unity-theme-text-color-3: rgb(189, 189, 189);
     --unity-theme-text-color-4: rgb(228, 228, 228);
     --unity-theme-text-color-5: rgb(255, 255, 255);
@@ -2078,8 +2078,8 @@
 }
 
 .unity-button-strip-field__button-icon {
-    width: 16;
-    height: 16;
+    width: 16px;
+    height: 16px;
     align-self: center;
 }
 
